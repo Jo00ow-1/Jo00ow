@@ -316,20 +316,29 @@ section {
 }
 
 .section-title {
-  padding-bottom: 30px;
+  padding-bottom:15px;
 }
 
+.section-title h1{
+  font-weight: 600;
+  color: #191919;
+  margin-top: 10px;
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+
 .section-title h2 {
-  font-size: 32px;
+  font-size: 38px;
   font-weight: bold;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
   position: relative;
   color: #173b6c;
 }
 
 .section-title h2::after {
-  content: "";
+  /* content: ""; */
   position: absolute;
   display: block;
   width: 50px;
@@ -343,13 +352,19 @@ section {
   margin-bottom: 0;
 }
 
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about .row .content{
+  padding-left: 40px;
+}
+
 .about .content h3 {
-  font-weight: 700;
-  font-size: 26px;
+  font-weight: 600;
+  font-size: 30px;
   color: #173b6c;
+  padding-bottom: 20px;
 }
 
 .about .content ul {
@@ -361,6 +376,7 @@ section {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  line-height: 3;
 }
 
 .about .content ul strong {
@@ -368,7 +384,7 @@ section {
 }
 
 .about .content ul i {
-  font-size: 16px;
+  font-size: 30px;
   margin-right: 5px;
   color: #149ddd;
   line-height: 0;
@@ -376,6 +392,74 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# self-introduction
+--------------------------------------------------------------*/
+.self-introduction .section-title{
+  padding-bottom: 0px;
+}
+
+.self-introduction .section-title strong{
+  font-size: 20px;
+}
+
+.self-introduction .row{
+  padding-top: 0px;
+}
+
+.self-introduction .row .col-lg-3{
+  padding-top: 30px;
+  width: 50%;
+}
+
+/*--------------------------------------------------------------
+# skills
+--------------------------------------------------------------*/
+.skills .section-title strong{
+  font-size: 20px;
+}
+
+.skills .row{
+  padding-top: 30px;
+}
+
+
+/*--------------------------------------------------------------
+# resume
+--------------------------------------------------------------*/
+.resume .section-title{
+  padding-bottom: 15px;
+}
+
+.resume .section-title h2{
+  padding-bottom: 0px;
+}
+
+.resume .row{
+  padding-top: 5px;
+}
+
+.resume .row .resume-title{
+  padding: 30px 0 15px 0;
+  margin: 0;
+  width:50%;
+  font-size: 20px;
+}
+
+.resume .row ul{
+  margin: 0;
+}
+
+.resume .row .resume-item{
+  padding-bottom:0px;
+  width:50%;
+}
+
+
+.resume .row h4{
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
